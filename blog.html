@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <title>University EduTech</title>
+</head>
+
+<body>
+  <!-- Start Header -->
+  <section class="sub-header" id="home">
+    <nav>
+      <a href="#"><img src="imgs/logo.png" alt=""></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Accredited Certificates & Online Courses – 2025</h1>
+  </section>
+  <!-- End Header -->
+  <!-- S blog page -->
+  <section class="bolg-content">
+    <div class="row">
+      <div class="bolg-left">
+        <img src="imgs/certificate.jpg" alt="">
+        <h2>Our Accredited Certificates & Online Courses – 2025</h2>
+<p>We offer a diverse range of accredited certificates and flexible online programs designed to help learners grow, adapt, and lead in today’s evolving industries. Whether you're a student, working professional, or lifelong learner, our 2025 offerings are crafted to suit your pace and passion for learning.</p>
+<br>
+<p>Our expert-led courses cover a wide spectrum of subjects including technology, business, design, and more. With interactive content, hands-on projects, and real-world case studies, you gain valuable skills that are both relevant and applicable in your career or academic journey.</p>
+<br>
+<p>All programs are designed with flexibility in mind. Study at your own convenience, from anywhere in the world, without compromising on the quality of education. You’ll experience structured learning supported by mentors, live sessions, and a strong peer network.</p>
+<br>
+<p>Whether you're looking to enhance your resume, pursue a promotion, or simply learn something new, our online programs provide the resources and credentials to help you reach your goals. Each course is backed by respected institutions and global recognition.</p>
+<br>
+<p>Join thousands of learners who have transformed their lives through our certified online education. As one of the leading tech universities, we continue to provide knowledge, innovation, and opportunity to help you succeed—wherever you are, and wherever you’re headed.</p>
+
+        <div class="comment-box">
+          <h3>Leave a comment</h3>
+          <form method="post" class="comment-form">
+            <input type="text" placeholder="Enter Name" required name="name">
+            <input type="email" placeholder="Enter Email" required name="mail">
+            <textarea rows="5" name="massage" required placeholder="Your Comment"></textarea>
+            <button type="submit" class="btn-1 red-btn">POST Comment</button>
+          </form>
+        </div>
+      </div>
+      <div class="bolg-right">
+        <h3>Post Categories</h3>
+        <div>
+          <span>Artificial Intelligence </span>
+          <span>24</span>
+        </div>
+        <div>
+          <span>Cyber Security </span>
+          <span>29</span>
+        </div>
+        <div>
+          <span>Cloud Computing</span>
+          <span>14</span>
+        </div>
+        <div>
+          <span>Software Engineering </span>
+          <span>38</span>
+        </div>
+        <div>
+          <span>Internet of Things (IoT)</span>
+          <span>42</span>
+        </div>
+        <div>
+          <span>Blockchain Technology </span>
+          <span>22</span>
+        </div>
+        <div>
+          <span>Data Engineering   Commerce</span>
+          <span>31</span>
+        </div>
+      </div>
+  </section>
+  <!-- E blog page -->
+  <!-- Start Footer -->
+  <footer>
+    <h4>About Us</h4>
+    <p>We are a next-generation tech university committed to empowering future innovators. <br /> With world-class faculty, cutting-edge research, and a global learning environment, we prepare students to lead in an ever-evolving digital world.</p>
+    <div class="icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin-in"></i>
+    </div>
+   </footer>
+  <!-- End Footer -->
+  <div class="up">
+    <a href="#home">
+      <i class="fas fa-angle-up"></i>
+    </a>
+  </div>
+
+  <!-- Javascript -->
+  <script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu() {
+      navlinks.style.right = "0"
+    }
+    function hideMenu() {
+      navlinks.style.right = "-200px"
+    }
+  </script>
+
+
+</body>
+
+</html>
